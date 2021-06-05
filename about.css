@@ -1,0 +1,95 @@
+body{
+  font-family: 'Futura';
+  background-color: white;
+}
+
+.column1 h1, h2, h3{
+  text-align: center;
+  color: black;
+}
+
+.column1 h1 {
+  margin-top: 80px;
+}
+
+.column1 h2{
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+
+.column1 p{
+  font-size: 18px;
+  text-align: justify;
+  color: black;
+  
+}
+
+
+
+
+
+.columns1 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 50px 90px;
+
+  line-height: 200%;
+
+}
+
+.column1 {
+	flex: 1;
+	margin: 1px;
+	padding: 50px 20px 30px 20px;
+}
+
+.column1 p{
+  padding: 6px;
+  max-width: 960px;
+  margin: auto;
+}
+
+
+
+.btn-div1{
+  max-width: 460px;
+ 
+}
+.bg-light1{
+  background: #fafafa !important;
+}
+.btn-div1 button {
+  padding: 10px 20px;
+   border-radius:50px;
+     background: #fda638;
+    border: 1px solid #fda638;
+}
+
+.btn-div1 button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+	.columns1 .column1 {
+		flex-basis: 100%;
+		margin: 0 0 5px 0;
+  
+	}
+  .column1 p {
+    max-width: 460px;
+    margin: 10px auto;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .btn-div1 button {
+    width: 30%;
+  }
+  .columns1 {
+    margin: 40px 10px;
+  }
+}
