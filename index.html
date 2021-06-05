@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <!-- Basic Metas -->
+  <meta charset="UTF-8">
+  <title>Little Krishna</title>
+  <meta name="description" content="Sample of Responsive Nav for website.">
+  <meta name="author" content="Jason Sutton">
+
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- jQuery Links -->
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" 
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+ 
+  <!-- Fonts -->
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,800" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script type="text/javascript" src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
+
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+ 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+
+<style>
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+     overflow-x: hidden;
+}
+
+body {
+top: 0px !important; 
+}
+/* Style the active class, and buttons on mouse-over */
+header .site-nav ul .activee a{
+  color:#00b3b3;
+background: transparent;
+        font-weight: 800;
+}
+
+@media (max-width:357px) {
+  .language{
+   display:none;
+   }}
+
+/*********************************/
+/*my frameWork*/
+.container1{
+  
+  width:100%;
+  margin-top:40px;
+margin-right:auto;
+margin-left:auto;
+text-align:justify;
+padding:0px 50px 0px 50px;
+}
+.section1{
+padding:0px 30px 0px 30px;
+}
+
+.responsive-p1{
+  line-height:1.6em;
+}
+.h1{
+  font-size:2em;
+  margin:40px 0;
+}
+.txt-center{
+  text-align:center;
+}
+/*end frameWork*/
+/*********************************/
+/*start about-us*/
+.about-us1{
+  background-color:white;
+}
+.about-us1 .h1{
+ 
+  color:#7f8c8d;
+  text-transform:uppercase;
+}
+.about-us1 .responsive-p{
+  color:#666;
+}
+/*end about-us*/
+/*start media query*/
+/*extra small screen mobile and tablet
+*max-width from 767 to smaller
+*/
+@media (max-width:767px){
+  .responsive-p1{
+   font-size:1em;
+  
+  }
+.h1{
+  font-size:1em;
+}
+.container3 h1{
+  font-size:2em;
+}
+}
+/*small screen 768px - 991px
+*min-width at least 768 to larger
+*/
+@media (min-width:768px){
+  .container1{
+ 
+  width:50%;
+ 
+  }.h1{
+  font-size:1em;
+}.container3 h1{
+  font-size:2em;
+}
+  .responsive-p1{
+    font-size:1em;
+  }
+
+}
+/*medium screen 992px - 1200px*/
+@media (min-width:992px){
+  .container1{
+ 
+  width:50%;
+
+  }
+  .responsive-p1{
+   font-size:1em;
+  }
+.container3 h1{
+  font-size:2.5em;
+}
+}
+/*large screen 1200 - ∞ */
+@media (min-width:1200px){
+  .container1{
+     
+  width:50%;
+  
+  }
+  .responsive-p1{
+  font-size:18px;
+  }
+.h1{
+  font-size:2em;
+}
+}
+
+/*********************************/
+/*my frameWork*/
+.container2{
+  float:left;
+  width:100%;
+ margin-top:40px;
+text-align:justify;
+padding:0px 10px 0px 10px;
+}
+/*start about-us*/
+.about-us2{
+  background-color:white;
+}
+.about-us2 .h1{
+ 
+  color:#7f8c8d;
+  text-transform:uppercase;
+}
+.about-us2 .responsive-p{
+  color:#666;
+}
+/*end about-us*/
+.responsive-p2{
+  line-height:1.6em;
+}
+@media (max-width:767px){
+  .responsive-p2{
+  font-size:18px;
+  text-align:justify;
+  }
+}
+@media (min-width:768px){
+  .container2{
+   
+  width:50%;
+  
+  }
+  .responsive-p2{
+    font-size:20px;
+  }.box-two2{
+width:45%;
+
+}
+}
+/*medium screen 992px - 1200px*/
+@media (min-width:992px){
+  .container2{
+    
+  width:50%;
+ 
+  }
+  .responsive-p2{
+  font-size:22px;
+  }.box-two2{
+width:45%;
+
+}
+}
+/*large screen 1200 - ∞ */
+@media (min-width:1200px){
+  .container2{
+     
+  width:50%;
+ 
+  }
+  .responsive-p2{
+  font-size:18px;
+  }
+.box-two2{
+width:45%;
+
+}
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.box-two1{
+	margin: 2% 1%;
+	border-top: 3px solid #db0c90;
+	
+	background-color: #f3f3f9;
+}
+
+div.box-two1>p{
+	
+	color: #000;
+	font-family: verdana;
+	font-size: 14px;
+	line-height: 25px;
+}
+div.box-two1 p:nth-child(3){
+	
+	color: rgb(0, 0, 0, 0.5);
+	font-family: verdana;
+	font-size: 11px;
+	line-height: 22px;
+}.box-two2{
+	margin: 2% 1%;
+	border-top: 3px solid #db0c90;
+	
+	background-color: #f3f3f9;
+}
+
+div.box-two2>p{
+	
+	color: #000;
+	font-family: verdana;
+	font-size: 14px;
+	line-height: 25px;
+}
+div.box-two2 p:nth-child(3){
+	
+	color: rgb(0, 0, 0, 0.5);
+	font-family: verdana;
+	font-size: 11px;
+	line-height: 22px;
+}
+
+
+#SecondPage {
+  background: url(images/ab_bg.jpg) no-repeat center fixed;
+  background-size: cover;
+  color: #000;
+  font-weight: bold;
+ 
+}
+#SecondPage3 {
+  background: url(images/bg_5.jpg) no-repeat center fixed;
+  background-size: cover;
+  color: #000;
+  font-weight: bold;
+  
+}
+.button-custom{
+border-radius:20px;
+}
+</style>
+</head>
+<body>
+  <!-- Navigation -->
+   
+
+<header>
+ <div class="grad-bar"></div>
+
+    <div class="container">
+
+        <h1 class="logo">
+           <!-- <span id="logo-first">JASON</span>
+            <span id="logo-last">SUTTON</span>-->
+<span id="logo-first"><img src="images/logo.jpg" width="130px" height="60px"></span>
+        </h1>
+
+        <!-- i elements are for font awesome icons home, info, briefcase, envelope -->
+        <nav class="site-nav">
+             <ul>
+      <li class="activee"><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="teacher.html">Teacher</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="course.html">Courses</a></li>
+      <li><a href="contactus.html">Contact</a></li>
+      <li><a href="admission.html">Admission</a></li>
+    
+      </ul>
+
+        </nav>
+
+        <!-- Menu btn that toggles onClick and changes appearance ( .menu-toggle CSS ) -->
+        <div class="menu-toggle">
+            <div class="hamburger"></div>
+        </div>
+    </div><marquee style="color:red">Welcome to Little Krishna Montessori school</marquee>
+</header>
+
+<section class="banner__slider">
+  <div class="slider stick-dots">
+    <div class="slide">
+      <div class="slide__img">
+        <img src="" alt="" data-lazy="images/bg_1.jpg" class="full-image animated" data-animation-in="zoomInImage"/>
+      </div>
+      <div class="slide__content ">
+        <div class="slide__content--headings text-down">
+           
+           <p class="animated top-title" data-animation-in="fadeInDown" data-delay-in="0.3">Welcome to</p>
+					<h2 class="animated title" data-animation-in="fadeInUp">Little Krishna Montessori Play School</h2>
+					<button class="btn-light btn button-custom animated" data-animation-in="fadeInUp" style="font-size:20px">Read More</button>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide__img">
+       <img src="" alt="" data-lazy="images/bg_2.jpg" class="full-image animated" data-animation-in="zoomInImage"/>
+      </div>
+      <div class="slide__content slide__content__center">
+        <div class="slide__content--headings text-center">
+					<p class="animated top-title" data-animation-in="fadeInLeft" data-delay-in="0.2"></p>
+           <h2 class="animated title" data-animation-in="fadeInLeft">Why Montessori School?</h2>
+           <button class="btn-light btn button-custom animated" data-animation-in="fadeInUp">Read More</button>
+        </div>
+      </div>
+    </div>
+		
+  </div>
+	<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44px" height="44px" id="circle" fill="none" stroke="currentColor">
+        <circle r="20" cy="22" cx="22" id="test">
+    </symbol>
+</svg>
+</section>
+
+
+
+<div class="container-fluid"><br>
+  <div class="row">
+    <div data-animate-in="left" class="col-md-3 col-sm-6">
+      <div class="serviceBox">
+        <div class="service-icon">
+          <span><i class="fa fa-graduation-cap" style="font-size:36px"></i></span>
+        </div>
+        <h3 class="title">Play School</h3>
+        <p class="description">We are giving best start for your child's future.</p>
+      </div>
+    </div>
+    <div data-animate-in="right" class="col-md-3 col-sm-6">
+      <div class="serviceBox red">
+        <div class="service-icon">
+          <span><i class='fas fa-volleyball-ball' style='font-size:36px'></i></span>
+        </div>
+        <h3 class="title">Sports Academy</h3>
+        <p class="description">we creating a young sports person in our academy</p>
+      </div>
+    </div>
+    <div data-animate-in="left" class="col-md-3 col-sm-6">
+      <div class="serviceBox blue">
+        <div class="service-icon">
+          <span><i class='fas fa-book-reader' style='font-size:36px'></i></span>
+        </div>
+        <h3 class="title">Tuition Centre</h3>
+        <p class="description">we are giving training to succeed in NEET exams.</p>
+      </div>
+    </div>
+    <div data-animate-in="right" class="col-md-3 col-sm-6">
+      <div class="serviceBox green">
+        <div class="service-icon">
+          <span><i class='fas fa-chalkboard-teacher' style='font-size:36px'></i></span>
+        </div>
+        <h3 class="title">Teacher Training</h3>
+        <p class="description">We are giving best teacher training with internship. </p>
+      </div>
+    </div>
+  </div><br>
+</div>
+
+
+<!--start about-us -->
+
+<center>
+<div id="SecondPage" class="about-us1 section1">
+  <br><br><div class="container1 box-two1">
+    <h2 class="text-center h1">Welcome to Little Krishna Montessori school</h2>
+    <p class="responsive-p1">The main features of Little Krishna are Therapy consulting regularly for all the children and sharing reports to the parents and taking special care of the children.<br> 
+Considering the health hygiene, lunch and snacks are provided to the children as per nutrition chart.<br> 
+To implant the children’s mind about the importance of farming, Field trips and Organic Gardening by children is made mandatory. <br>
+Each class consists of only twenty-five students under the supervision of two teachers and one mentor to take the children.<br>
+ New way of teacher training such as Montessori training with practical training is provided. <br>A sports academy with all necessary basic features is provided.<br><br>
+<center><button class="btn-success btn button-custom animated" data-animation-in="fadeInUp" style="font-size:20px">Know More</button></center><br><br></p>
+  </div><br><br>
+</div></center>
+<!--end about-us -->
+
+<div class="container3"><br><br><br>
+  	<center> <h1 style="text-align:center;">What <span style="color: #db0c90">We Offer</span></h1> 
+    <p>Little Krishna play school offers best start of your child's future and our school mainly focuses on the following</p>
+  </center></div>
+<div class="valuecards">
+ 
+  <div class="valuecard"><center><i class="fas fa-user-shield">&nbsp;<h>Safety First</h></i></center></div>
+  <div class="valuecard"><center><i class="fa fa-book">&nbsp;<h>Regular Classes</h></i></center></div>
+  <div class="valuecard"><center> <i class="fa fa-graduation-cap">&nbsp;<h>Certified Teachers</h></i></center></div>
+  <div class="valuecard"> <center><i class="fa fa-home">&nbsp;<h>Sufficient Classrooms</h></i></center></div>
+  <div class="valuecard"><center><i class="fas fa-chess">&nbsp;<h>Sports Facilities</h></i></center></div>
+  <div class="valuecard"><center><i class="fa fa-puzzle-piece">&nbsp;<h>Creative Lessons</h></i></center></div>
+<br><br><br></div>
+
+
+
+
+<div class="sectiontle" id="SecondPage2"><br><br><br>
+<div class="sectiontitle">
+    <h2 style="text-align:center;color: #db0c90">20 Years of <span style="color:black">Experience</span></h2>
+    <span class="headerLine"></span>
+</div>
+<div id="projectFacts" class="sectionClass">
+    <div class="fullWidth eight columns">
+        <div class="projectFactsWrap ">
+            <div class="item wow fadeInUpBig animated animated" data-number="12" style="visibility: visible;">
+                
+                <p id="number1" class="number">18</p>
+                <span></span>
+                <p>Certified Teachers</p>
+            </div>
+            <div class="item wow fadeInUpBig animated animated" data-number="55" style="visibility: visible;">
+             
+                <p id="number2" class="number">355</p>
+                <span></span>
+                <p>Successful Kids</p>
+            </div>
+            <div class="item wow fadeInUpBig animated animated" data-number="359" style="visibility: visible;">
+                
+                <p id="number3" class="number">359</p>
+                <span></span>
+                <p>Happy Parents</p>
+            </div>
+            <div class="item wow fadeInUpBig animated animated" data-number="246" style="visibility: visible;">
+                
+                <p id="number4" class="number">246</p>
+                <span></span>
+                <p>Awards Won</p>
+            </div>
+        </div>
+    </div>
+</div><br><br><br>
+</div>
+
+
+
+<div class="gtco-testimonials">
+      <center> <h2 style="text-align:center;">What Parent <span style="color: #db0c90">Says</span></h2>
+        <div class="owl-carousel owl-carousel1 owl-theme">
+          <div>
+            <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt="">
+              <div class="card-body">
+                <h5>Ronne Galle <br />
+                  <span> Project Manager </span></h5>
+                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                  impedit quo minus id quod maxime placeat ” </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1588361035994-295e21daa761?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=301" alt="">
+              <div class="card-body">
+                <h5>Missy Limana<br />
+                  <span> Engineer </span></h5>
+                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                  impedit quo minus id quod maxime placeat ” </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302" alt="">
+              <div class="card-body">
+                <h5>Martha Brown<br />
+                  <span> Project Manager </span></h5>
+                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                  impedit quo minus id quod maxime placeat ” </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303" alt="">
+              <div class="card-body">
+                <h5>Hanna Lisem<br />
+                  <span> Project Manager </span></h5>
+                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                  impedit quo minus id quod maxime placeat ” </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+<div id="SecondPage3"><br><br><br>
+<div class="blog-slider">
+  <div class="blog-slider__wrp swiper-wrapper">
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg" alt="">
+      </div>
+      <div class="blog-slider__content"><center> <h2 style="text-align:center;">Upcoming <span style="color: #db0c90">Events</span></h2></center>
+        <span class="blog-slider__code">26 December 2019</span>
+        <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+        <a href="#" class="blog-slider__button">READ MORE</a>
+      </div>
+    </div>
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/jason-leung-798979-unsplash.jpg" alt="">
+      </div>
+      <div class="blog-slider__content"><center> <h2 style="text-align:center;">Upcoming <span style="color: #db0c90">Events</span></h2></center>
+        <span class="blog-slider__code">26 December 2019</span>
+        <div class="blog-slider__title">Lorem Ipsum Dolor2</div>
+        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+        <a href="#" class="blog-slider__button">READ MORE</a>
+      </div>
+    </div>
+    
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+      </div>
+      <div class="blog-slider__content"><center> <h2 style="text-align:center;">Upcoming <span style="color: #db0c90">Events</span></h2></center>
+        <span class="blog-slider__code">26 December 2019</span>
+        <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+        <a href="#" class="blog-slider__button">READ MORE</a>
+      </div>
+    </div>
+    
+  </div>
+  <div id="contact" class="blog-slider__pagination"></div>
+</div><br><br><br>
+</div>
+
+
+<br><br><br><br><br><br><br><br>
+
+<footer class="footer-section">
+        <div class="container">
+             <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span><a> KVB Bank,Krishnagiri main road,Bargur,<br>Tamilnadu-635104.</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span><a>8883055290</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span><a>mail@info.com</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="images/logo.jpg" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Get Admission in Little Krishna for Your Child's Great Future</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-youtube google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">Courses</a></li>
+                                <li><a href="#">Teachers</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Admission</a></li>
+                                <li><a href="contactus.html">Contact</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below to get recent updates.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2021, All Right Reserved <a href="#"></a>Little Krishna</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Designed by AA Developers</a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+<script>
+var swiper = new Swiper('.blog-slider', {
+      spaceBetween: 30,
+      effect: 'fade',
+      loop: true,
+  autoplay:true,
+      mousewheel: {
+        invert: false,
+      },
+      // autoHeight: true,
+      pagination: {
+        el: '.blog-slider__pagination',
+        clickable: true,
+      }
+    });
+
+</script>
+
+
+<script>
+(function () {
+    "use strict";
+  
+    var carousels = function () {
+      $(".owl-carousel1").owlCarousel({
+        loop: true,
+        center: true,
+        margin: 0,
+
+        responsiveClass: true,
+        nav: false, autoplay:true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          680: {
+            items: 2,
+            nav: false,
+            loop: false
+          },
+          1000: {
+            items: 3,
+            nav: true
+          }
+        }
+      });
+    };
+  
+    (function ($) {
+      carousels();
+    })(jQuery);
+  })();
+  
+  </script>
+  
+<script>
+	$.fn.jQuerySimpleCounter = function( options ) {
+	    var settings = $.extend({
+	        start:  0,
+	        end:    100,
+	        easing: 'swing',
+	        duration: 400,
+	        complete: ''
+	    }, options );
+
+	    var thisElement = $(this);
+
+	    $({count: settings.start}).animate({count: settings.end}, {
+			duration: settings.duration,
+			easing: settings.easing,
+			step: function() {
+				var mathCount = Math.ceil(this.count);
+				thisElement.text(mathCount);
+			},
+			complete: settings.complete
+		});
+	};
+
+
+$('#number1').jQuerySimpleCounter({end: 12,duration: 3000});
+$('#number2').jQuerySimpleCounter({end: 55,duration: 3000});
+$('#number3').jQuerySimpleCounter({end: 359,duration: 2000});
+$('#number4').jQuerySimpleCounter({end: 246,duration: 2500});
+
+
+</script>
+<script>
+
+var $animation_elements = $('.animation-element');
+var $window = $(window);
+
+function check_if_in_view() {
+  var window_height = $window.height();
+  var window_top_position = $window.scrollTop();
+  var window_bottom_position = (window_top_position + window_height);
+ 
+  $.each($animation_elements, function() {
+    var $element = $(this);
+    var element_height = $element.outerHeight();
+    var element_top_position = $element.offset().top;
+    var element_bottom_position = (element_top_position + element_height);
+ 
+    //check to see if this current container is within viewport
+    if ((element_bottom_position >= window_top_position) &&
+        (element_top_position <= window_bottom_position)) {
+      $element.addClass('in-view');
+    } else {
+      $element.removeClass('in-view');
+    }
+  });
+}
+
+$window.on('scroll resize', check_if_in_view);
+$window.trigger('scroll');
+</script>
+<script>
+
+     
+
+ 
+
+
+
+</script>
+
+<script>
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*    ALL NAVIGATION: menu btn, btn 2 states, icons for button     */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/*-------------------------------------------------------------*/
+/*             jQuery .menu-toggle (CSS) btn onClick           */
+/*-------------------------------------------------------------*/
+
+$('.menu-toggle').click(function() {
+
+
+ 
+  
+
+    /*--------------------------------------------------------------*/
+    /*open-close Navigation menu btn, 500 milliseconds to drop-close*/
+    /*--------------------------------------------------------------*/
+    $('.site-nav').toggleClass('site-nav-open', 500);
+        
+    /*-------------------------------------------------------------*/
+    /* changes hamburger to red X for close button .open CSS       */
+    /*-------------------------------------------------------------*/
+    $(this).toggleClass('open');
+
+
+
+  });
+
+
+
+
+
+
+/*
+** With Slick Slider Plugin : https://github.com/marvinhuebner/slick-animation
+** And Slick Animation Plugin : https://github.com/marvinhuebner/slick-animation
+*/
+
+// Init slick slider + animation
+$('.slider').slick({
+  autoplay: true,
+  speed: 800,
+  lazyLoad: 'progressive',
+  arrows: true,autoWidth:true,merge:true,
+ modal: false,
+  dots: false,
+	prevArrow: '<div class="slick-nav prev-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
+	nextArrow: '<div class="slick-nav next-arrow"><i></i><svg><use xlink:href="#circle"></svg></div>',
+}).slickAnimation();
+
+
+
+$('.slick-nav').on('click touch', function(e) {
+
+    e.preventDefault();
+
+    var arrow = $(this);
+
+    if(!arrow.hasClass('animate')) {
+        arrow.addClass('animate');
+        setTimeout(() => {
+            arrow.removeClass('animate');
+        }, 1600);
+    }
+
+});
+</script>
+</body>
+</html>
